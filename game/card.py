@@ -26,5 +26,5 @@ class Card:
         Args:
             self (Die): An instance of Card.
         """
-        self.value = random.randint(1, 5)
-        #self.points = 50 if self.value == 5 else 100 if self.value == 1 else 0
+        self.value = random.randint(1, 6)
+        self.points = 50 if self.value == 5 else 100 if self.value == 1 else 0
